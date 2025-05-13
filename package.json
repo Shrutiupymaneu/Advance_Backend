@@ -2,15 +2,18 @@
   "name": "advancebackend",
   "version": "1.0.0",
   "description": "A Backend with Chai & Code",
+  "type" : "module",
   "keywords": [
     "javascript",
     "backend"
   ],
   "license": "ISC",
   "author": "Shruti Dubey",
-  "type": "commonjs",
   "main": "index.js",
+  "devDependencies": {
+    "nodemon": "3.1.10" 
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   }
 }
