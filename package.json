@@ -6,15 +6,18 @@
   "main": "index.js",
   "author": "Shruti Dubey",
   "license": "ISC",
-  "keywords": ["javascript", "backend"],
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
   "devDependencies": {
     "nodemon": "^3.1.10"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "prettier": "^3.5.3"
   },
   "scripts": {
     "dev": "nodemon src/index.js"
   }
 }
-
