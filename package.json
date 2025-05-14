@@ -2,18 +2,19 @@
   "name": "advancebackend",
   "version": "1.0.0",
   "description": "A Backend with Chai & Code",
-  "type" : "module",
-  "keywords": [
-    "javascript",
-    "backend"
-  ],
-  "license": "ISC",
-  "author": "Shruti Dubey",
+  "type": "module",
   "main": "index.js",
+  "author": "Shruti Dubey",
+  "license": "ISC",
+  "keywords": ["javascript", "backend"],
   "devDependencies": {
-    "nodemon": "3.1.10" 
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   },
   "scripts": {
     "dev": "nodemon src/index.js"
   }
 }
+
