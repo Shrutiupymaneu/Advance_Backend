@@ -34,8 +34,6 @@ pids/
 # Project-Specific
 # -------------------------------------
 
-# Ignore temp directory inside public
-public/temp/
 
 # VS Code settings
 .vscode/
